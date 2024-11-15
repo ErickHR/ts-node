@@ -1,0 +1,42 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "ts-standard ./src && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^5.0.0",
+    "@types/express-fileupload": "^1.5.1",
+    "@types/jsonwebtoken": "^9.0.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-fileupload": "^1.5.1",
+    "google-auth-library": "^9.14.2",
+    "googleapis": "^144.0.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "open": "^10.1.0",
+    "server-destroy": "^1.0.1",
+    "url": "^0.11.4",
+    "uuid": "^11.0.2"
+  }
+}
